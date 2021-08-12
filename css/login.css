@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+}
+.hero {
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	
+}
+
+.form-box {
+	width: 380px;
+	height: 500px;
+	position: relative;
+	margin: 6% auto;
+	background: #ffffff;
+	padding: 5px;
+	overflow: hidden;
+	box-shadow: 0 0 20px 9px #03030341;
+}
+.button-box {
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #0000001f;
+	border-radius: 30px;
+}
+.toggle-btn {
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+
+}
+#btn {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right, #10bbff, #10bbff);
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.input-group {
+	top: 120px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.input-field {
+	width: 100%;
+	padding: 15px 0px;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid rgb(10, 10, 10);
+	outline: none;
+	background: transparent;
+
+}
+.check-box {
+	margin: 50px 10px 33px 0;
+}
+.submit-btn {
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin:  auto;
+	background: linear-gradient(to right, #10bbff, #10bbff);
+	border-radius: 30px;
+	border: 0;
+	color: white;
+	font-size: 15px;
+}
+
+.submit-btn:hover {
+	width: 85%;
+	padding: 10px 32px;
+	font-size: 16px;
+	cursor: pointer;
+	display: block;
+	margin:  auto;
+	background: linear-gradient(to right, #10bbff, #10bbff);
+	border-radius: 30px;
+	border: 0;
+	box-shadow: 2px 2px  2px 2px Gray;
+	transition: .2s;
+	border: 2px;
+}
+
+
+
+
+
+
+span {
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+	bottom: 68px;
+	position: absolute;
+	
+}
+#login {
+	left: 50px;
+}
+#signup {
+	left: 450px;
+}
+.title{
+	top: 30px;
+	left: 390px;
+	position: absolute;
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: normal;
+}
+
+::placeholder{
+	font-size: 14px;
+}
+
+.hero img{
+	width: 50%;
+	height: 60%;
+	float: left;
+	margin-top: 100px;
+	margin-left: 30px;
+}
